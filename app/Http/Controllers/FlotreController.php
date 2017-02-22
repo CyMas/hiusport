@@ -29,7 +29,7 @@ class FlotreController extends Controller
 		$this->validate($req,[
             'name'=> 'required',
             'email'=> 'required',
-            'phone'=> 'required|number',
+            'phone'=> 'required',
             'message'=> 'required']);
 		$post = new Contact;
 		$post->name = $req->input('name');
@@ -50,7 +50,7 @@ class FlotreController extends Controller
 	{
 		$this->validate($req,[
             'nama_pemesan'=> 'required',
-            'phone_pemesan'=> 'required|number']);
+            'phone_pemesan'=> 'required']);
 		$post = new Pesanan;
 		$post->nama_pemesan = $req->input('nama_pemesan');
 		$post->email_pemesan = $req->input('email_pemesan');
