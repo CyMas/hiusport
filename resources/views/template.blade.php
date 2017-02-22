@@ -317,7 +317,7 @@
                                     </select>                                    
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" id="deskripsi" autocomplete="off" required readonly id="deskripsi" name="deskripsi" required></textarea>
+                                    <textarea class="form-control" id="deskripsi" autocomplete="off" required readonly id="deskripsi" name="deskripsi" required>Deskripsi</textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <!-- <div class="form-group">
@@ -345,7 +345,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input id="hargaProduk" class="form-control" name="harga" id="harga" type="text" autocomplete="off" required readonly>
+                                    <input id="hargaProduk" class="form-control" name="harga" id="harga" value="Harga" type="text" autocomplete="off" required readonly>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
@@ -354,7 +354,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="number" id="totalHarga" class="form-control"  id="total_harga" name="total_harga" required readonly>
+                                    <input type="text" id="totalHarga" class="form-control" value="Total Harga" id="total_harga" name="total_harga" required readonly>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
