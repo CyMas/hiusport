@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="panel panel-default">
-                    <div class="panel-heading">{{ $data->nama_produk }} - {{ $data->jenis }}</div>
+                    <div class="panel-heading">{{ $data->nama_produk }}</div>
                     <div class="panel-body">
                         <table class="table table-bordered table-hover table-striped">
                                 <tr>
