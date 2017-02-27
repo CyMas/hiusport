@@ -26,16 +26,6 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
-
-        $user = new User;
-        $user->name = 'Faewfs Dse';
-        $user->username = 'abcde';
-        $user->password = \Hash::make('abcde');
-        $user->jeniskelamin = 'Perempuan';
-        $user->ttl = 'Jakarta, 09 Januari 2019';
-        $user->alamat = 'Jl. Jdkale No.19';
-        $user->no_tlp = '0889354465';
-        $user->save();
     }
 
     /**
