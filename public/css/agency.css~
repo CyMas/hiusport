@@ -365,6 +365,7 @@ section h3.section-subheading {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+height:450px;
   }
 }
 .timeline {
@@ -541,8 +542,8 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
-height: 200px;
-width: 200px;
+	height: 200px;
+	width: 200px;
 }
 .team-member h4 {
   margin-top: 25px;

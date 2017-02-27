@@ -548,7 +548,14 @@
                                     <li>Stok : {{ $value->stok }}</li>
                                 </ul> -->
                                 <ul style="font-size:25px">
-                                    <li>Harga {{ "Rp".number_format($value->harga,0,',','.') }}</li>
+
+                                    <li>
+                                        @if($value->harga == 0)
+                                          Silahkan hubungi Owner untuk menanyakan harga
+                                        @else
+                                          Harga {{ "Rp".number_format($value->harga,0,',','.') }}
+                                        @endif
+                                    </li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
                             </div>

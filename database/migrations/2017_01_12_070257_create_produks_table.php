@@ -30,13 +30,13 @@ class CreateProduksTable extends Migration
         $produk->nama_produk = 'Fairing fiber movi star';
         $produk->deskripsi = "*Full set";
         $produk->foto = 'material/images/1487290505-16708193_1930245033862439_3029038963618690630_n.jpg';
-        $produk->stok = '5';
-        $produk->harga = '1200000';
+        $produk->stok = '2';
+        $produk->harga = '0';
         $produk->save();
 
         $produk = new Produk;
         $produk->kode = '1002';
-        $produk->nama_produk = 'Cover tangki vixion';
+        $produk->nama_produk = 'Cover tangki khusus new vixion';
         $produk->deskripsi = "*Bahan plastik";
         $produk->foto = 'material/images/1487292834-16711565_1930244667195809_3343410289942994008_n.jpg';
         $produk->stok = '9';
@@ -120,6 +120,42 @@ class CreateProduksTable extends Migration
         $produk->nama_produk = 'Cover arm vixion';
         $produk->deskripsi = "";
         $produk->foto = 'material/images/1487564995-16728994_1930239807196295_6766663005626379090_n.jpg';
+        $produk->stok = '3';
+        $produk->harga = '200000';
+        $produk->save();
+
+        $produk = new Produk;
+        $produk->kode = '1012';
+        $produk->nama_produk = 'Cover arm vixion';
+        $produk->deskripsi = "";
+        $produk->foto = 'material/images/1488171725-1488170235-1487745382-IMG-20170220-WA0002.jpg';
+        $produk->stok = '3';
+        $produk->harga = '200000';
+        $produk->save();
+
+        $produk = new Produk;
+        $produk->kode = '1013';
+        $produk->nama_produk = 'Cover arm vixion';
+        $produk->deskripsi = "";
+        $produk->foto = 'material/images/1488171738-1487749808-IMG_20170219_164802.jpg';
+        $produk->stok = '3';
+        $produk->harga = '200000';
+        $produk->save();
+
+        $produk = new Produk;
+        $produk->kode = '1014';
+        $produk->nama_produk = 'Cover arm vixion';
+        $produk->deskripsi = "";
+        $produk->foto = 'material/images/1488171750-1487750812-IMG-20170212-WA0008.jpg';
+        $produk->stok = '3';
+        $produk->harga = '200000';
+        $produk->save();
+
+        $produk = new Produk;
+        $produk->kode = '1015';
+        $produk->nama_produk = 'Cover arm vixion';
+        $produk->deskripsi = "";
+        $produk->foto = 'material/images/1488173629-1487751732-IMG-20170212-WA0012.jpg';
         $produk->stok = '3';
         $produk->harga = '200000';
         $produk->save();
