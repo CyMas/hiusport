@@ -317,12 +317,12 @@ class FlotreAdminController extends Controller
             $post->save();
 
 
-            $post = Pesanan::where('kode',$req->input('kode'))->first();
-            $post->nama_produk = $req->input('nama_produk');
-            $post->deskripsi = $req->input('deskripsi');
-            $post->foto = $foto;
-            $post->stok = $req->input('stok');
-            $post->save();
+            // $post = Pesanan::where('kode',$req->input('kode'))->first();
+            // $post->nama_produk = $req->input('nama_produk');
+            // $post->deskripsi = $req->input('deskripsi');
+            // $post->foto = $foto;
+            // $post->stok = $req->input('stok');
+            // $post->save();
 
         }
         else{
@@ -335,11 +335,11 @@ class FlotreAdminController extends Controller
             $post->save();
             
 
-            $post = Pesanan::where('kode',$req->input('kode'))->first();
-            $post->nama_produk = $req->input('nama_produk');
-            $post->deskripsi = $req->input('deskripsi');
-            $post->stok = $req->input('stok');
-            $post->save();
+            // $post = Pesanan::where('kode',$req->input('kode'))->first();
+            // $post->nama_produk = $req->input('nama_produk');
+            // $post->deskripsi = $req->input('deskripsi');
+            // $post->stok = $req->input('stok');
+            // $post->save();
         }
         return redirect(url('/list/produk'));
     }
